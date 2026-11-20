@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: The Real BIS-Tooltip 3.3.5a
+## Notes: Complete BiS class/build browser with equipment and glyph icons/tooltips, branded UI, modified clicks, and progressive item lookups
+## Version: 1.0.0
+## SavedVariables: TheRealBISTooltipDB
+
+TheRealBISTooltip_Data.lua
+TheRealBISTooltip_ItemIDs.lua
+TheRealBISTooltip_GlyphIDs.lua
+TheRealBISTooltip.lua

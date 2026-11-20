@@ -1,0 +1,51 @@
+THE REAL BIS-TOOLTIP 3.3.5a — HEROIC DIFFICULTY AUDIT
+Bundled with the first release
+Authoritative BiS workbook: BiS_List_by_Kama_Corrected-v2.xlsx
+
+SCOPE
+- 10 class worksheets and 37 build columns.
+- 627 filled equipment cells; alternatives split by slash, plus sign, and line break produce 647 equipment candidate occurrences.
+- 210 distinct normalized workbook lookup names resolve to 205 distinct item IDs (aliases and repeated names account for the difference).
+- Every lookup name is listed in HEROIC_AUDIT.csv with its item ID, audit class, note, profile use, and database link.
+
+RESULT
+- 178 distinct IDs are mapped to Heroic raid variants (this includes Heroic 10-player items; Heroic does not mean only 25-player Heroic).
+- 27 distinct IDs are retained as non-Heroic-mode/source-system exceptions because there is no same-name Heroic raid counterpart in the 3.3.5a item data. These are not automatically wrong BiS choices.
+- Seven verified Normal-to-Heroic item-ID corrections are included in the bundled item catalogue.
+
+CORRECTIONS
+1. Apocalypse's Advance: 53125 -> 54578 (Heroic Ruby Sanctum)
+2. Bracers of Fiery Night: 53486 -> 54582 (Heroic Ruby Sanctum)
+3. Foreshadow Steps: 53487 -> 54586 (Heroic Ruby Sanctum)
+4. Plague Scientist's Boots: 50062 -> 50699 (Heroic ICC)
+5. Lingering Illness: 50063 -> 50702 (Heroic ICC)
+6. Sindragosa's Flawless Fang: 50361 -> 50364 (Heroic ICC)
+7. Dreamhunter's Carbine: 51561 -> 51834 (Heroic ICC 10-player)
+
+NON-HEROIC-MODE EXCEPTIONS
+The CSV provides the individual row note. The exception families include:
+- Vendor/relic items purchased with Emblems (librams, idols, sigils, totems, Herkuml War Token, Sentinel's Winter Cloak, Verdigris Chain Belt).
+- Ashen Verdict reputation rings (progression by reputation, not raid difficulty).
+- Crafted item: Pillars of Might.
+- PvP item: Wrathful Gladiator's Greatstaff.
+- Legendary items: Val'anyr and Shadowmourne.
+- Ulduar items that use the hard-mode system rather than a separate Heroic difficulty variant: Meteorite Crystal and Libram of the Sacred Shield.
+- Signified Ring of Binding (the workbook's display spelling is "Signet Ring of Binding"), listed as Onyxia 25-player Normal-only; Onyxia has no Heroic mode.
+
+IMPORTANT LIMITATION
+This audit checks same-item Heroic difficulty equivalents and the correctness of the bundled item IDs. It does not re-simulate stats or re-theorycraft the overall BiS ranking of every build. Where an item has no same-name Heroic mode version, the workbook recommendation is preserved instead of substituting an unrelated item. Private realms may use custom item templates/IDs; compare the item link and tooltip in your realm if its database differs from standard Wrath 3.3.5a.
+
+SOURCES / CHECKS
+- WotLK Database 3.3.5a item records: https://wotlkdb.com/
+- Dreamhunter's Carbine Heroic 10-player, item 51834, item level 264: https://wotlk.evowow.com/?item=51834
+- Plague Scientist's Boots Heroic, item 50699, item level 277: https://wotlk.evowow.com/?item=50699
+- Lingering Illness Heroic, item 50702, item level 277: https://www.wowhead.com/wotlk/item=50702/lingering-illness
+- Sentinel's Winter Cloak vendor source: https://wotlk.evowow.com/?item=50466
+- Herkuml War Token vendor source: https://wotlk.evowow.com/?item=50355
+- Ashen Band of Endless Might, Exalted reputation source: https://wotlkdb.com/?item=52572
+- Signified Ring of Binding, Onyxia 25-player Normal-only: https://www.wowhead.com/wotlk/item=49489/signified-ring-of-binding
+- Sanctified Ahn'Kahar Blood Hunter's Headpiece Heroic, item 51286, item level 277: https://wotlk.evowow.com/?item=51286
+- Sanctified Dark Coven Hood Heroic, item 51231, item level 277: https://wotlkdb.com/?item=51231
+- Bracers of Fiery Night Heroic, item 54582, item level 284: https://wotlk.evowow.com/?item=54582
+- Deathbringer's Will Heroic, item 50363, item level 277: https://wotlkdb.com/?item=50363
+- Dislodged Foreign Object Heroic, item 50348, item level 277: https://wotlkdb.com/?item=50348
